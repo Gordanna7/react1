@@ -1,9 +1,11 @@
-
+import { LogIn } from "./components/LogIn";
 
 const App = () => {
-  return (<>
+  return (<div>
+    <LogIn/>
+  </div>
 
-  </>);
+  );
 }
 
 export default App
