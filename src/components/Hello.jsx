@@ -1,4 +1,4 @@
-import { useDispatch, UseSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 import { actionOne } from "../actions/HelloActions";
 export const Hello = () => {
   const dispatch = useDispatch();
